@@ -1,0 +1,76 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+nav {
+    background-color: blue;
+    padding: 10px 20px;
+    height: 45px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajoute une ombre */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; /* Ajoute une transition de couleur lors du survol */
+}
+
+nav ul li a:hover {
+    color: orange; /* Changement de couleur au survol */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Supprime la marge de droite pour le dernier élément */
+}
+
+
+
+
+nav ul li a:hover {
+    background-color: orange;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #fff;
+    font-family: "Arial", sans-serif;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+progress {
+    width: 100px;
+    height: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
