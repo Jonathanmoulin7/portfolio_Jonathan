@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+/>
 </head>
 <body>
 
 <nav>
     <ul>
-        <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#competences">Compétences</a></li>
-        <li><a href="#etudes">Études</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#accueil"><i class="fas fa-home"></i> Accueil</a></li>
+        <li><a href="#competences"><i class="fas fa-code"></i> Compétences</a></li>
+        <li><a href="#etudes"><i class="fas fa-graduation-cap"></i> Études</a></li>
+        <li><a href="#passions"><i class="fas fa-heart"></i> Passions</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
     </ul>
 </nav>
 
 <section id="accueil">
     <h2>Accueil</h2>
-    <p>Bienvenue sur mon portfolio.</p>
-    <img src="assets/images/profile.jpg" alt="Image d'accueil">
+    <h2>Portfolio Moulin Jonathan</h2>
+    <img src="assets/images/profile.jpg" alt="Image d'accueil" width="230px">   
 </section>
 
 <section id="competences">
@@ -29,17 +34,62 @@
         <li>HTML <progress value="32" max="100"></progress></li>
         <li>CSS <progress value="20" max="100"></progress></li>
         <li>WordPress <progress value="32" max="100"></progress></li>
+        <li>Excel<progress value="20" max="100"></progress></li></li>
+        <li>Word<progress value="32" max="100"></progress></li></li>
     </ul>
 </section>
 
 <section id="etudes">
     <h2>Études</h2>
-    <p>Je suis actuellement en train d'apprendre le HTML et le CSS.</p>
+    <p>J'ai fait des études spécialité Littéraire mais Le numérique est un secteur que je préfère donc j'ai suivi une formation de développement d'application mobile IOS Chez Simplon et Je suis actuellement étudiant a L'Em Lyon pour Apprendre le HTML le CSS et le Javascript.</p>
+</section>
+
+<section id="passions">
+    <h2>Passions</h2>
+    <table>
+        <thead>
+          <tr>
+            <th scope="col">Sports</th>
+            <th scope="col">Années</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Jeux Vidéo</th>
+            <td>10 ans</td>
+
+           
+          </tr>
+          <tr>
+            <th scope="row">Solfège</th>
+            <td>2 ans </td>
+          </tr>
+          <tr>
+            <th scope="row">Football</th>
+            <td>1 ans</td>
+          
+          </tr>
+        </tfoot>
+      </table>
+        <tr>
+            <td><img src="c:\Users\ADMINI~1\AppData\Local\Temp\videogames-web-826x459.jpg" alt="Jeux vidéo"></td>
+
+    </table>
+    <p>Je suis passionné par les jeux vidéo depuis mon enfance. Ils sont pour moi une source de divertissement, mais aussi un moyen d'explorer de nouveaux mondes et de relever des défis passionnants.</p>
 </section>
 
 <section id="contact">
     <h2>Contact</h2>
-    <p>Vous pouvez me contacter à l'adresse email@example.com.</p>
+    <form action="#" method="POST">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <button type="submit">Envoyer</button>
+    </form>
 </section>
 
 </body>
