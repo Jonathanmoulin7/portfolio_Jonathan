@@ -2,8 +2,27 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1d0575;
-    color: #ff0000; /* Texte des paragraphes en rouge */
+    background-color: #000000;
+}
+.container {
+    display: flex;
+    align-items: center; /* Aligner verticalement les éléments enfants */
+}
+
+.container img {
+    max-width: 100%; /* Ajuster la largeur de l'image */
+}
+
+.right {
+    flex-grow: 1; /* Permettre au texte de prendre tout l'espace disponible */
+    padding-left: 20px; /* Ajouter un peu d'espace à gauche du texte */
+}
+
+p {
+    color: white; /* Texte en blanc */
+    font-family: Arial, sans-serif; /* Police différente */
+    line-height: 1.6; /* Espacement entre les lignes */
+    margin-bottom: 20px; /* Marge en bas */
 }
 
 nav {
@@ -13,6 +32,7 @@ nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -20,7 +40,31 @@ nav ul {
     display: flex;
     justify-content: center;
 }
+#competences {
+    background-color: rgb(255, 255, 255);
+    color: s;
+    padding: 50px;
+}
 
+
+#competences h2 {
+    text-align: center;
+}
+
+
+#competences ul {
+    list-style: none;
+    padding: 0;
+}
+
+#competences ul li {
+    margin-bottom: 20px;
+}
+
+#competences progress {
+    width: 100%;
+    height: 20px;
+}
 nav ul li {
     margin-right: 20px;
 }
@@ -57,13 +101,15 @@ section p {
     color: #ff0000; /* Texte des paragraphes en rouge */
 }
 
+.yellow {
+    color: yellow;
+}
+
 
 section ul {
     list-style-type: none;
     padding: 0;
 }
-
-section id 
 
 section ul li {
     margin-bottom: 10px;
@@ -82,4 +128,60 @@ img {
 
 #competences li {
     color: #ffcc00; 
+}
+/* Style pour la section "Etudes et Passions" */
+#etudes-passions {
+    background-color: #333; /* Fond gris foncé */
+    color: white; /* Texte en blanc */
+    padding: 50px;
+}
+
+#etudes-passions h2 {
+    text-align: center;
+    font-family: Arial, sans-serif; /* Police différente */
+}
+
+/* Style pour le formulaire de contact */
+#contact {
+    background-color: #222; /* Fond noir */
+    color: white; /* Texte en blanc */
+    padding: 50px;
+}
+
+#contact h1 {
+    text-align: center;
+    font-family: Arial, sans-serif; /* Police différente */
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff; /* Bouton bleu */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact form button:hover {
+    background-color: #0056b3; /* Changement de couleur au survol */
 }
