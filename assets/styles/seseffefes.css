@@ -1,0 +1,150 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    color: yellow;
+}
+.text-color {
+    color: yellow; 
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+}
+
+header h1 {
+	margin: 0;
+    color: yellow;
+}
+
+header p {
+	font-size: 1.2rem;
+	margin: 0;
+    color: yellow;
+}
+
+section {
+	margin: 2rem;
+}
+
+section h2 {
+	border-bottom: 2px solid #333;
+	margin-bottom: 1rem;
+	padding-bottom: 0.5rem;
+    color: yellow;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-color: red;
+  }
+  
+  li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: blue;
+    border-width: 10px;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  .liens {
+    font-size: larger;
+    color:yellow;
+    text-decoration: underline;
+  }
+  nav ul p {
+    margin-right: 20px; 
+}
+
+ol h3 {
+    color:  yellow; 
+    border-color: red;
+}
+
+ol p {
+    color: yellow;
+    border-color: red;
+}
+
+.large-square2 {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .small-square3 {
+    position: relative;
+    width: 300px;
+    top: -40%;
+    height: 50px;
+    background-color: black;
+    border: 1px solid red;
+  }
+  .small-square5 { 
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 1px solid red;
+  }
+  .small-square img {
+    width: 100%;
+    height: auto;
+  }
+  .div class text2 {
+    font-size: 15px;
+  }
+  .small-square4 {
+    background-color: black;
+    border: 1px solid red;
+    font-size: 15px;
+    margin-right: 0px;
+  }
+
+  h2 {
+    color: magenta;
+  }
+
+  .large-square4 {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  p {
+    font-size: 20px;
+    
+  }

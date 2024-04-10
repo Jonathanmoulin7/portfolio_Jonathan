@@ -1,16 +1,16 @@
 body {
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #000;
-    color: #fff;
+    color: #ff0000; /* Texte des paragraphes en rouge */
 }
 
 nav {
-    background-color: #333;
+    background-color: #e61111;
     padding: 10px 20px;
     height: 45px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajoute une ombre */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -18,7 +18,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Centre les éléments horizontalement */
+    justify-content: center;
 }
 
 nav ul li {
@@ -28,15 +28,15 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    transition: color 0.3s; /* Ajoute une transition de couleur lors du survol */
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: orange; /* Changement de couleur au survol */
+    color: orange;
 }
 
 nav ul li:last-child {
-    margin-right: 0; /* Supprime la marge de droite pour le dernier élément */
+    margin-right: 0;
 }
 
 nav ul li a:hover {
@@ -51,6 +51,10 @@ section {
 section h2 {
     color: #fff;
     font-family: "Arial", sans-serif;
+}
+
+section p {
+    color: #ff0000; /* Texte des paragraphes en rouge */
 }
 
 section ul {
@@ -73,3 +77,6 @@ img {
     margin-top: 20px;
 }
 
+#competences li {
+    color: #ffcc00; 
+}
