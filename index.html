@@ -13,13 +13,13 @@
 </head>
 <body>
 
-<nav>
-    <ul>
-        <li><a href="#accueil"><i class="fas fa-home"></i> Accueil</a></li>
-        <li><a href="#competences"><i class="fas fa-code"></i> Compétences</a></li>
-        <li><a href="#etudes"><i class="fas fa-graduation-cap"></i> Études</a></li>
-        <li><a href="#passions"><i class="fas fa-heart"></i> Passions</a></li>
-        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+  <nav class="secondary">
+    <ul class="secondary">
+        <li class="secondary"><a href="#accueil"><i class="fas fa-home"></i> Accueil</a></li>
+        <li class="contrast"><a href="#competences"><i class="fas fa-code"></i> Compétences</a></li>
+        <li class="outline"><a href="#etudes"><i class="fas fa-graduation-cap"></i> Études</a></li>
+        <li class="outline secondary"><a href="#passions"><i class="fas fa-heart"></i> Passions</a></li>
+        <li class="outline contrast"><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
     </ul>
 </nav>
 
@@ -30,13 +30,14 @@
 </section>
 
 <section id="competences">
-    <h2>Compétences</h2>
+    <h2>Compétences</h2> 
     <ul>
         <li>HTML <progress value="32" max="100"></progress></li>
         <li>CSS <progress value="20" max="100"></progress></li>
         <li>WordPress <progress value="32" max="100"></progress></li>
         <li>Excel<progress value="20" max="100"></progress></li></li>
         <li>Word<progress value="32" max="100"></progress></li></li>
+
     </ul>
 </section>
 
@@ -73,17 +74,23 @@
 </section>
 
 <section id="contact">
-    <h2>Contact</h2>
-    <form action="#" method="POST">
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="message">Message :</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
-        <button type="submit">Envoyer</button>
-    </form>
+  <h2>Contact</h2>
+  <form action="#" method="POST">
+    <label class="yellow" for="name">Nom :</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label class="yellow" for="email">Email :</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label class="yellow" for="message">Message :</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+    <button type="submit">Envoyer</button>
+  </form>
 </section>
+
+   
+    
+  </form>
+</section>
+
 
 </body>
 </html>
